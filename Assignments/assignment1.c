@@ -23,7 +23,8 @@ int main(){
 		 // Ex 4
 		 int max_row = 10; 
 		 int row, star;
-		for(row=1; row<= max_row;row++){ 						for (star=1;star<=row;star++){							printf("* ");
+		for(row=1; row<= max_row;row++){ 
+			for (star=1;star<=row;star++){							printf("* ");
 		}
 		printf("\n");
 		}
